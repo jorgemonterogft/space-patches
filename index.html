@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Space Patches - European Human Spaceflight Mission Patches Collection">
+    <meta name="keywords" content="ESA, space, patches, missions, spaceflight">
+    <meta name="theme-color" content="#0a0e27">
+    <title>Space Patches - European Human Spaceflight Collection</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Starfield background -->
+    <div id="starfield"></div>
+    
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <h1 class="title">
+                    <span class="star">★</span> Space Patches <span class="star">★</span>
+                </h1>
+                <p class="subtitle">European Human Spaceflight Mission Patches (1978-2026)</p>
+            </div>
+        </header>
+
+        <!-- Filters -->
+        <div class="filters">
+            <input type="text" id="searchInput" class="search-box" placeholder="Search patches...">
+            <select id="agencyFilter" class="filter-select">
+                <option value="">All Agencies</option>
+            </select>
+            <select id="yearFilter" class="filter-select">
+                <option value="">All Years</option>
+            </select>
+        </div>
+
+        <!-- Patch grid -->
+        <div id="patchGrid" class="patch-grid">
+            <!-- Populated by JavaScript -->
+        </div>
+
+        <!-- Loading state -->
+        <div id="loadingState" class="loading">
+            <div class="loader"></div>
+            <p>Loading patches...</p>
+        </div>
+
+        <!-- No results -->
+        <div id="noResults" class="no-results" style="display: none;">
+            <p>No patches found matching your criteria.</p>
+        </div>
+    </div>
+
+    <!-- Modal for expanded view -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <button class="modal-close">&times;</button>
+            <div class="modal-inner">
+                <img id="modalImage" src="" alt="Patch">
+                <div class="modal-info">
+                    <h2 id="modalTitle"></h2>
+                    <p><strong>Agency/Country:</strong> <span id="modalAgency"></span></p>
+                    <p><strong>Year:</strong> <span id="modalYear"></span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="https://www.esa.int/" target="_blank">ESA</a>
+                <a href="https://github.com" target="_blank">GitHub</a>
+                <a href="#privacy">Privacy</a>
+            </div>
+            <div class="footer-credit">
+                <p>&copy; 2026 Space Patches. All images are property of ESA and respective space agencies.</p>
+                <p>This project displays mission patches from <a href="https://www.esa.int/About_Us/50_years_of_ESA/European_human_spaceflight_patches" target="_blank">ESA's official collection</a>.</p>
+                <p>Images used for educational and informational purposes under fair use.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,854 @@
+[
+  {
+    "name": "epsilon mission patch 2026",
+    "agency": "CNES/ESA",
+    "year": 2026,
+    "filename": "epsilon_mission_patch_2026.png"
+  },
+  {
+    "name": "SpaceX Crew-12 2026",
+    "agency": "SpaceX",
+    "year": 2026,
+    "filename": "SpaceX_Crew-12_2026.png"
+  },
+  {
+    "name": "ISS Expedition 75 patch 2026",
+    "agency": "International Partnership",
+    "year": 2026,
+    "filename": "ISS_Expedition_75_patch_2026.png"
+  },
+  {
+    "name": "ISS Expedition 74 patch 2026",
+    "agency": "International Partnership",
+    "year": 2026,
+    "filename": "ISS_Expedition_74_patch_2026.png"
+  },
+  {
+    "name": "Fram2 patch 2025",
+    "agency": "CNES/ESA",
+    "year": 2025,
+    "filename": "Fram2_patch_2025.png"
+  },
+  {
+    "name": "Axiom Ax-4 patch 2025",
+    "agency": "Axiom Space",
+    "year": 2025,
+    "filename": "Axiom_Ax-4_patch_2025.png"
+  },
+  {
+    "name": "Axiom Ax-4 Ignis mission patch 2025",
+    "agency": "Axiom Space",
+    "year": 2025,
+    "filename": "Axiom_Ax-4_Ignis_mission_patch_2025.png"
+  },
+  {
+    "name": "Axiom Ax-3 patch 2024",
+    "agency": "Axiom Space",
+    "year": 2024,
+    "filename": "Axiom_Ax-3_patch_2024.png"
+  },
+  {
+    "name": "Axiom Ax-3 Muninn mission patch 2024",
+    "agency": "Axiom Space",
+    "year": 2024,
+    "filename": "Axiom_Ax-3_Muninn_mission_patch_2024.png"
+  },
+  {
+    "name": "SpaceX Crew-7 Huginn mission patch 2023",
+    "agency": "SpaceX",
+    "year": 2023,
+    "filename": "SpaceX_Crew-7_Huginn_mission_patch_2023.png"
+  },
+  {
+    "name": "SpaceX Crew-7 2023",
+    "agency": "SpaceX",
+    "year": 2023,
+    "filename": "SpaceX_Crew-7_2023.png"
+  },
+  {
+    "name": "ISS Expedition 70 patch 2023",
+    "agency": "International Partnership",
+    "year": 2023,
+    "filename": "ISS_Expedition_70_patch_2023.png"
+  },
+  {
+    "name": "ISS Expedition 69 patch 2023",
+    "agency": "International Partnership",
+    "year": 2023,
+    "filename": "ISS_Expedition_69_patch_2023.png"
+  },
+  {
+    "name": "SpaceX Crew-4 Minerva mission patch 2022",
+    "agency": "SpaceX",
+    "year": 2022,
+    "filename": "SpaceX_Crew-4_Minerva_mission_patch_2022.png"
+  },
+  {
+    "name": "SpaceX Crew-4 2022",
+    "agency": "SpaceX",
+    "year": 2022,
+    "filename": "SpaceX_Crew-4_2022.png"
+  },
+  {
+    "name": "ISS Expedition 68 patch 2022",
+    "agency": "International Partnership",
+    "year": 2022,
+    "filename": "ISS_Expedition_68_patch_2022.png"
+  },
+  {
+    "name": "ISS Expedition 67 patch 2022",
+    "agency": "International Partnership",
+    "year": 2022,
+    "filename": "ISS_Expedition_67_patch_2022.png"
+  },
+  {
+    "name": "SpaceX Crew-3 Cosmic Kiss mission patch 2021",
+    "agency": "SpaceX",
+    "year": 2021,
+    "filename": "SpaceX_Crew-3_Cosmic_Kiss_mission_patch_2021.png"
+  },
+  {
+    "name": "SpaceX Crew-3 2021",
+    "agency": "SpaceX",
+    "year": 2021,
+    "filename": "SpaceX_Crew-3_2021.png"
+  },
+  {
+    "name": "SpaceX Crew-2 Alpha mission patch 2021",
+    "agency": "SpaceX",
+    "year": 2021,
+    "filename": "SpaceX_Crew-2_Alpha_mission_patch_2021.png"
+  },
+  {
+    "name": "SpaceX Crew-2 2021",
+    "agency": "SpaceX",
+    "year": 2021,
+    "filename": "SpaceX_Crew-2_2021.png"
+  },
+  {
+    "name": "ISS Expedition 66 patch 2021",
+    "agency": "International Partnership",
+    "year": 2021,
+    "filename": "ISS_Expedition_66_patch_2021.png"
+  },
+  {
+    "name": "ISS Expedition 65 patch 2021",
+    "agency": "International Partnership",
+    "year": 2021,
+    "filename": "ISS_Expedition_65_patch_2021.png"
+  },
+  {
+    "name": "Soyuz MS-13 Beyond mission patch 2019",
+    "agency": "Russia/ESA",
+    "year": 2019,
+    "filename": "Soyuz_MS-13_Beyond_mission_patch_2019.png"
+  },
+  {
+    "name": "Soyuz MS-13 2019",
+    "agency": "Russia/ESA",
+    "year": 2019,
+    "filename": "Soyuz_MS-13_2019.png"
+  },
+  {
+    "name": "ISS Expedition 61 patch 2019",
+    "agency": "International Partnership",
+    "year": 2019,
+    "filename": "ISS_Expedition_61_patch_2019.png"
+  },
+  {
+    "name": "ISS Expedition 60 patch 2019",
+    "agency": "International Partnership",
+    "year": 2019,
+    "filename": "ISS_Expedition_60_patch_2019.png"
+  },
+  {
+    "name": "UPDATED ISS Expedition 57 patch 2018",
+    "agency": "International Partnership",
+    "year": 2018,
+    "filename": "UPDATED_ISS_Expedition_57_patch_2018.png"
+  },
+  {
+    "name": "Soyuz MS-09 Horizons mission patch 2018",
+    "agency": "Russia/ESA",
+    "year": 2018,
+    "filename": "Soyuz_MS-09_Horizons_mission_patch_2018.png"
+  },
+  {
+    "name": "Soyuz MS-09 2018",
+    "agency": "Russia/ESA",
+    "year": 2018,
+    "filename": "Soyuz_MS-09_2018.png"
+  },
+  {
+    "name": "ISS Expedition 57 patch 2018",
+    "agency": "International Partnership",
+    "year": 2018,
+    "filename": "ISS_Expedition_57_patch_2018.png"
+  },
+  {
+    "name": "ISS Expedition 56 patch 2018",
+    "agency": "International Partnership",
+    "year": 2018,
+    "filename": "ISS_Expedition_56_patch_2018.png"
+  },
+  {
+    "name": "Soyuz MS-05 VITA mission patch 2017",
+    "agency": "Russia/ESA",
+    "year": 2017,
+    "filename": "Soyuz_MS-05_VITA_mission_patch_2017.png"
+  },
+  {
+    "name": "Soyuz MS-05 2017",
+    "agency": "Russia/ESA",
+    "year": 2017,
+    "filename": "Soyuz_MS-05_2017.png"
+  },
+  {
+    "name": "ISS Expedition 53 patch 2017",
+    "agency": "International Partnership",
+    "year": 2017,
+    "filename": "ISS_Expedition_53_patch_2017.png"
+  },
+  {
+    "name": "ISS Expedition 52 patch 2017",
+    "agency": "International Partnership",
+    "year": 2017,
+    "filename": "ISS_Expedition_52_patch_2017.png"
+  },
+  {
+    "name": "ISS Expedition 51 patch 2017",
+    "agency": "International Partnership",
+    "year": 2017,
+    "filename": "ISS_Expedition_51_patch_2017.png"
+  },
+  {
+    "name": "Soyuz MS-03 Proxima mission patch 2016",
+    "agency": "Russia/ESA",
+    "year": 2016,
+    "filename": "Soyuz_MS-03_Proxima_mission_patch_2016.png"
+  },
+  {
+    "name": "Soyuz MS-03 2016",
+    "agency": "Russia/ESA",
+    "year": 2016,
+    "filename": "Soyuz_MS-03_2016.png"
+  },
+  {
+    "name": "ISS Expedition 50 patch 2016",
+    "agency": "International Partnership",
+    "year": 2016,
+    "filename": "ISS_Expedition_50_patch_2016.png"
+  },
+  {
+    "name": "ISS Expedition 47 patch 2016",
+    "agency": "International Partnership",
+    "year": 2016,
+    "filename": "ISS_Expedition_47_patch_2016.png"
+  },
+  {
+    "name": "Soyuz TMA-19M Principia mission patch 2015",
+    "agency": "Russia/ESA",
+    "year": 2015,
+    "filename": "Soyuz_TMA-19M_Principia_mission_patch_2015.png"
+  },
+  {
+    "name": "Soyuz TMA-19M 2015",
+    "agency": "Russia/ESA",
+    "year": 2015,
+    "filename": "Soyuz_TMA-19M_2015.png"
+  },
+  {
+    "name": "Soyuz TMA-18M Iriss mission patch 2015",
+    "agency": "Russia/ESA",
+    "year": 2015,
+    "filename": "Soyuz_TMA-18M_Iriss_mission_patch_2015.png"
+  },
+  {
+    "name": "Soyuz TMA-18M 2015",
+    "agency": "Russia/ESA",
+    "year": 2015,
+    "filename": "Soyuz_TMA-18M_2015.png"
+  },
+  {
+    "name": "ISS Expedition 46 patch 2015",
+    "agency": "International Partnership",
+    "year": 2015,
+    "filename": "ISS_Expedition_46_patch_2015.png"
+  },
+  {
+    "name": "ISS Expedition 43 patch 2015",
+    "agency": "International Partnership",
+    "year": 2015,
+    "filename": "ISS_Expedition_43_patch_2015.png"
+  },
+  {
+    "name": "Soyuz TMA-15M Futura mission patch 2014",
+    "agency": "Russia/ESA",
+    "year": 2014,
+    "filename": "Soyuz_TMA-15M_Futura_mission_patch_2014.png"
+  },
+  {
+    "name": "Soyuz TMA-15M 2014",
+    "agency": "Russia/ESA",
+    "year": 2014,
+    "filename": "Soyuz_TMA-15M_2014.png"
+  },
+  {
+    "name": "Soyuz TMA-13M Blue Dot mission patch 2014",
+    "agency": "Russia/ESA",
+    "year": 2014,
+    "filename": "Soyuz_TMA-13M_Blue_Dot_mission_patch_2014.png"
+  },
+  {
+    "name": "Soyuz TMA-13M 2014",
+    "agency": "Russia/ESA",
+    "year": 2014,
+    "filename": "Soyuz_TMA-13M_2014.png"
+  },
+  {
+    "name": "ISS Expedition 42 patch 2014",
+    "agency": "International Partnership",
+    "year": 2014,
+    "filename": "ISS_Expedition_42_patch_2014.png"
+  },
+  {
+    "name": "ISS Expedition 41 patch 2014",
+    "agency": "International Partnership",
+    "year": 2014,
+    "filename": "ISS_Expedition_41_patch_2014.png"
+  },
+  {
+    "name": "ISS Expedition 40 patch 2014",
+    "agency": "International Partnership",
+    "year": 2014,
+    "filename": "ISS_Expedition_40_patch_2014.png"
+  },
+  {
+    "name": "Soyuz TMA-09M Volare mission patch 2013",
+    "agency": "Russia/ESA",
+    "year": 2013,
+    "filename": "Soyuz_TMA-09M_Volare_mission_patch_2013.png"
+  },
+  {
+    "name": "Soyuz TMA-09M 2013",
+    "agency": "Russia/ESA",
+    "year": 2013,
+    "filename": "Soyuz_TMA-09M_2013.png"
+  },
+  {
+    "name": "ISS Expedition 37 patch 2013",
+    "agency": "International Partnership",
+    "year": 2013,
+    "filename": "ISS_Expedition_37_patch_2013.png"
+  },
+  {
+    "name": "ISS Expedition 36 patch 2013",
+    "agency": "International Partnership",
+    "year": 2013,
+    "filename": "ISS_Expedition_36_patch_2013.png"
+  },
+  {
+    "name": "Soyuz TMA-03M PromISSe mission patch 2011",
+    "agency": "Russia/ESA",
+    "year": 2011,
+    "filename": "Soyuz_TMA-03M_PromISSe_mission_patch_2011.png"
+  },
+  {
+    "name": "Soyuz TMA-03M 2011",
+    "agency": "Russia/ESA",
+    "year": 2011,
+    "filename": "Soyuz_TMA-03M_2011.png"
+  },
+  {
+    "name": "STS-134 patch 2011",
+    "agency": "NASA/ESA",
+    "year": 2011,
+    "filename": "STS-134_patch_2011.png"
+  },
+  {
+    "name": "STS-134 DAMA mission patch 2011",
+    "agency": "NASA/ESA",
+    "year": 2011,
+    "filename": "STS-134_DAMA_mission_patch_2011.png"
+  },
+  {
+    "name": "ISS Expedition 31 patch 2011",
+    "agency": "International Partnership",
+    "year": 2011,
+    "filename": "ISS_Expedition_31_patch_2011.png"
+  },
+  {
+    "name": "ISS Expedition 30 patch 2011",
+    "agency": "International Partnership",
+    "year": 2011,
+    "filename": "ISS_Expedition_30_patch_2011.png"
+  },
+  {
+    "name": "ISS Expedition 27 patch 2011",
+    "agency": "International Partnership",
+    "year": 2011,
+    "filename": "ISS_Expedition_27_patch_2011.png"
+  },
+  {
+    "name": "Soyuz TMA-20 MagISStra mission patch 2010",
+    "agency": "Russia/ESA",
+    "year": 2010,
+    "filename": "Soyuz_TMA-20_MagISStra_mission_patch_2010.png"
+  },
+  {
+    "name": "Soyuz TMA-20 2010",
+    "agency": "Russia/ESA",
+    "year": 2010,
+    "filename": "Soyuz_TMA-20_2010.png"
+  },
+  {
+    "name": "ISS Expedition 26 patch 2010",
+    "agency": "International Partnership",
+    "year": 2010,
+    "filename": "ISS_Expedition_26_patch_2010.png"
+  },
+  {
+    "name": "Soyuz TMA-15 OasISS mission patch 2009",
+    "agency": "Russia/ESA",
+    "year": 2009,
+    "filename": "Soyuz_TMA-15_OasISS_mission_patch_2009.png"
+  },
+  {
+    "name": "Soyuz TMA-15 2009",
+    "agency": "Russia/ESA",
+    "year": 2009,
+    "filename": "Soyuz_TMA-15_2009.png"
+  },
+  {
+    "name": "STS-128 patch 2009",
+    "agency": "NASA/ESA",
+    "year": 2009,
+    "filename": "STS-128_patch_2009.png"
+  },
+  {
+    "name": "STS-128 Alisse mission patch 2009",
+    "agency": "NASA/ESA",
+    "year": 2009,
+    "filename": "STS-128_Alisse_mission_patch_2009.png"
+  },
+  {
+    "name": "ISS Expedition 21 patch 2009",
+    "agency": "International Partnership",
+    "year": 2009,
+    "filename": "ISS_Expedition_21_patch_2009.png"
+  },
+  {
+    "name": "ISS Expedition 20 patch 2009",
+    "agency": "International Partnership",
+    "year": 2009,
+    "filename": "ISS_Expedition_20_patch_2009.png"
+  },
+  {
+    "name": "STS-122 patch 2008",
+    "agency": "NASA/ESA",
+    "year": 2008,
+    "filename": "STS-122_patch_2008.png"
+  },
+  {
+    "name": "ISS Expedition 16 patch 2008",
+    "agency": "International Partnership",
+    "year": 2008,
+    "filename": "ISS_Expedition_16_patch_2008.png"
+  },
+  {
+    "name": "STS-120 patch 2007",
+    "agency": "NASA/ESA",
+    "year": 2007,
+    "filename": "STS-120_patch_2007.png"
+  },
+  {
+    "name": "STS-120 Esperia mission patch 2007",
+    "agency": "NASA/ESA",
+    "year": 2007,
+    "filename": "STS-120_Esperia_mission_patch_2007.png"
+  },
+  {
+    "name": "STS-121 patch 2006",
+    "agency": "NASA/ESA",
+    "year": 2006,
+    "filename": "STS-121_patch_2006.png"
+  },
+  {
+    "name": "STS-121 Astrolab mission patch 2006",
+    "agency": "NASA/ESA",
+    "year": 2006,
+    "filename": "STS-121_Astrolab_mission_patch_2006.png"
+  },
+  {
+    "name": "STS-116 patch 2006",
+    "agency": "NASA/ESA",
+    "year": 2006,
+    "filename": "STS-116_patch_2006.png"
+  },
+  {
+    "name": "STS-116 Celsius mission patch 2006",
+    "agency": "NASA/ESA",
+    "year": 2006,
+    "filename": "STS-116_Celsius_mission_patch_2006.png"
+  },
+  {
+    "name": "ISS Expedition 14 patch 2006",
+    "agency": "International Partnership",
+    "year": 2006,
+    "filename": "ISS_Expedition_14_patch_2006.png"
+  },
+  {
+    "name": "ISS Expedition 13 patch 2006",
+    "agency": "International Partnership",
+    "year": 2006,
+    "filename": "ISS_Expedition_13_patch_2006.png"
+  },
+  {
+    "name": "Soyuz TMA-6 flight patch 2005",
+    "agency": "Russia/ESA",
+    "year": 2005,
+    "filename": "Soyuz_TMA-6_flight_patch_2005.png"
+  },
+  {
+    "name": "Soyuz TMA-6 Eneide mission patch 2005",
+    "agency": "Russia/ESA",
+    "year": 2005,
+    "filename": "Soyuz_TMA-6_Eneide_mission_patch_2005.png"
+  },
+  {
+    "name": "Soyuz TMA-4 flight patch 2004",
+    "agency": "Russia/ESA",
+    "year": 2004,
+    "filename": "Soyuz_TMA-4_flight_patch_2004.png"
+  },
+  {
+    "name": "Soyuz TMA-4 Delta mission patch 2004",
+    "agency": "Russia/ESA",
+    "year": 2004,
+    "filename": "Soyuz_TMA-4_Delta_mission_patch_2004.png"
+  },
+  {
+    "name": "Soyuz TMA-3 flight patch 2003",
+    "agency": "Russia/ESA",
+    "year": 2003,
+    "filename": "Soyuz_TMA-3_flight_patch_2003.png"
+  },
+  {
+    "name": "Soyuz TMA-3 Cervantes mission patch 2003",
+    "agency": "Russia/ESA",
+    "year": 2003,
+    "filename": "Soyuz_TMA-3_Cervantes_mission_patch_2003.png"
+  },
+  {
+    "name": "Soyuz TMA-1 Odissea mission patch 2002",
+    "agency": "Russia/ESA",
+    "year": 2002,
+    "filename": "Soyuz_TMA-1_Odissea_mission_patch_2002.png"
+  },
+  {
+    "name": "Soyuz TM-34 flight patch 2002",
+    "agency": "Russia/ESA",
+    "year": 2002,
+    "filename": "Soyuz_TM-34_flight_patch_2002.png"
+  },
+  {
+    "name": "Soyuz TM-34 Marco Polo mission patch 2002",
+    "agency": "Russia/ESA",
+    "year": 2002,
+    "filename": "Soyuz_TM-34_Marco_Polo_mission_patch_2002.png"
+  },
+  {
+    "name": "STS-111 patch 2002",
+    "agency": "NASA/ESA",
+    "year": 2002,
+    "filename": "STS-111_patch_2002.png"
+  },
+  {
+    "name": "Soyuz TM-33 flight patch 2001",
+    "agency": "Russia/ESA",
+    "year": 2001,
+    "filename": "Soyuz_TM-33_flight_patch_2001.png"
+  },
+  {
+    "name": "Soyuz TM-33 Andromede mission patch 2001",
+    "agency": "Russia/ESA",
+    "year": 2001,
+    "filename": "Soyuz_TM-33_Andromede_mission_patch_2001.png"
+  },
+  {
+    "name": "STS-100 patch 2001",
+    "agency": "NASA/ESA",
+    "year": 2001,
+    "filename": "STS-100_patch_2001.png"
+  },
+  {
+    "name": "STS-99 patch 2000",
+    "agency": "NASA/ESA",
+    "year": 2000,
+    "filename": "STS-99_patch_2000.png"
+  },
+  {
+    "name": "Soyuz TM-29 patch 1999",
+    "agency": "Russia/ESA",
+    "year": 1999,
+    "filename": "Soyuz_TM-29_patch_1999.png"
+  },
+  {
+    "name": "Soyuz TM-29 Perseus mission patch 1999",
+    "agency": "Russia/ESA",
+    "year": 1999,
+    "filename": "Soyuz_TM-29_Perseus_mission_patch_1999.png"
+  },
+  {
+    "name": "STS-93 patch 1999",
+    "agency": "NASA/ESA",
+    "year": 1999,
+    "filename": "STS-93_patch_1999.png"
+  },
+  {
+    "name": "STS-103 patch 1999",
+    "agency": "NASA/ESA",
+    "year": 1999,
+    "filename": "STS-103_patch_1999.png"
+  },
+  {
+    "name": "Soyuz TM-27 Pegase mission patch 1998",
+    "agency": "Russia/ESA",
+    "year": 1998,
+    "filename": "Soyuz_TM-27_Pegase_mission_patch_1998.png"
+  },
+  {
+    "name": "Soyuz TM-27 Mir EO-25 patch 1998",
+    "agency": "Russia/ESA",
+    "year": 1998,
+    "filename": "Soyuz_TM-27_Mir_EO-25_patch_1998.png"
+  },
+  {
+    "name": "STS-95 patch 1998",
+    "agency": "NASA/ESA",
+    "year": 1998,
+    "filename": "STS-95_patch_1998.png"
+  },
+  {
+    "name": "Soyuz TM-25 crew patch 1997",
+    "agency": "Russia/ESA",
+    "year": 1997,
+    "filename": "Soyuz_TM-25_crew_patch_1997.png"
+  },
+  {
+    "name": "Soyuz TM-25 Mir EO 23 patch 1997",
+    "agency": "Russia/ESA",
+    "year": 1997,
+    "filename": "Soyuz_TM-25_Mir_EO_23_patch_1997.png"
+  },
+  {
+    "name": "STS-86 patch 1997",
+    "agency": "NASA/ESA",
+    "year": 1997,
+    "filename": "STS-86_patch_1997.png"
+  },
+  {
+    "name": "STS-84 patch 1997",
+    "agency": "NASA/ESA",
+    "year": 1997,
+    "filename": "STS-84_patch_1997.png"
+  },
+  {
+    "name": "Soyuz TM-24 flight patch 1996",
+    "agency": "Russia/ESA",
+    "year": 1996,
+    "filename": "Soyuz_TM-24_flight_patch_1996.png"
+  },
+  {
+    "name": "Soyuz TM-24 Cassiopee mission patch 1996",
+    "agency": "Russia/ESA",
+    "year": 1996,
+    "filename": "Soyuz_TM-24_Cassiopee_mission_patch_1996.png"
+  },
+  {
+    "name": "STS-78 patch 1996",
+    "agency": "NASA/ESA",
+    "year": 1996,
+    "filename": "STS-78_patch_1996.png"
+  },
+  {
+    "name": "STS-75 patch 1996",
+    "agency": "NASA/ESA",
+    "year": 1996,
+    "filename": "STS-75_patch_1996.png"
+  },
+  {
+    "name": "Soyuz TM-22 flight patch 1995",
+    "agency": "Russia/ESA",
+    "year": 1995,
+    "filename": "Soyuz_TM-22_flight_patch_1995.png"
+  },
+  {
+    "name": "Soyuz TM-22 Euromir 95 mission patch 1995",
+    "agency": "Russia/ESA",
+    "year": 1995,
+    "filename": "Soyuz_TM-22_Euromir_95_mission_patch_1995.png"
+  },
+  {
+    "name": "Soyuz TM-20 flight patch 1994",
+    "agency": "Russia/ESA",
+    "year": 1994,
+    "filename": "Soyuz_TM-20_flight_patch_1994.png"
+  },
+  {
+    "name": "Soyuz TM-20 Euromir 94 mission patch 1994",
+    "agency": "Russia/ESA",
+    "year": 1994,
+    "filename": "Soyuz_TM-20_Euromir_94_mission_patch_1994.png"
+  },
+  {
+    "name": "STS-66 patch 1994",
+    "agency": "NASA/ESA",
+    "year": 1994,
+    "filename": "STS-66_patch_1994.png"
+  },
+  {
+    "name": "Soyuz TM-17 flight patch 1993",
+    "agency": "Russia/ESA",
+    "year": 1993,
+    "filename": "Soyuz_TM-17_flight_patch_1993.png"
+  },
+  {
+    "name": "Soyuz TM-17 Altair mission patch 1993",
+    "agency": "Russia/ESA",
+    "year": 1993,
+    "filename": "Soyuz_TM-17_Altair_mission_patch_1993.png"
+  },
+  {
+    "name": "STS-61 patch 1993",
+    "agency": "NASA/ESA",
+    "year": 1993,
+    "filename": "STS-61_patch_1993.png"
+  },
+  {
+    "name": "STS-55 patch 1993",
+    "agency": "NASA/ESA",
+    "year": 1993,
+    "filename": "STS-55_patch_1993.png"
+  },
+  {
+    "name": "Soyuz TM-15 Antares mission patch 1992",
+    "agency": "Russia/ESA",
+    "year": 1992,
+    "filename": "Soyuz_TM-15_Antares_mission_patch_1992.png"
+  },
+  {
+    "name": "Soyuz TM-14 patch 1992",
+    "agency": "Russia/ESA",
+    "year": 1992,
+    "filename": "Soyuz_TM-14_patch_1992.png"
+  },
+  {
+    "name": "STS-46 patch 1992",
+    "agency": "NASA/ESA",
+    "year": 1992,
+    "filename": "STS-46_patch_1992.png"
+  },
+  {
+    "name": "STS-45 patch 1992",
+    "agency": "NASA/ESA",
+    "year": 1992,
+    "filename": "STS-45_patch_1992.png"
+  },
+  {
+    "name": "STS-42 patch 1992",
+    "agency": "NASA/ESA",
+    "year": 1992,
+    "filename": "STS-42_patch_1992.png"
+  },
+  {
+    "name": "Soyuz TM-13 patch 1991",
+    "agency": "Russia/ESA",
+    "year": 1991,
+    "filename": "Soyuz_TM-13_patch_1991.png"
+  },
+  {
+    "name": "Soyuz TM-12 Juno mission patch 1991",
+    "agency": "Russia/ESA",
+    "year": 1991,
+    "filename": "Soyuz_TM-12_Juno_mission_patch_1991.png"
+  },
+  {
+    "name": "Soyuz TM-7 Aragatz mission patch 1988",
+    "agency": "Russia/ESA",
+    "year": 1988,
+    "filename": "Soyuz_TM-7_Aragatz_mission_patch_1988.png"
+  },
+  {
+    "name": "Soyuz TM-5 patch 1988",
+    "agency": "Russia/ESA",
+    "year": 1988,
+    "filename": "Soyuz_TM-5_patch_1988.png"
+  },
+  {
+    "name": "STS-61A patch 1985",
+    "agency": "NASA/ESA",
+    "year": 1985,
+    "filename": "STS-61A_patch_1985.png"
+  },
+  {
+    "name": "STS-51G patch 1985",
+    "agency": "NASA/ESA",
+    "year": 1985,
+    "filename": "STS-51G_patch_1985.png"
+  },
+  {
+    "name": "STS-9 patch 1983",
+    "agency": "NASA/ESA",
+    "year": 1983,
+    "filename": "STS-9_patch_1983.png"
+  },
+  {
+    "name": "STS-9 Spacelab-1 payload patch 1983",
+    "agency": "NASA/ESA",
+    "year": 1983,
+    "filename": "STS-9_Spacelab-1_payload_patch_1983.png"
+  },
+  {
+    "name": "Soyuz T6 patch 1982",
+    "agency": "Russia/ESA",
+    "year": 1982,
+    "filename": "Soyuz_T6_patch_1982.png"
+  },
+  {
+    "name": "Soyuz 40 patch 1981",
+    "agency": "Soviet Union",
+    "year": 1981,
+    "filename": "Soyuz_40_patch_1981.png"
+  },
+  {
+    "name": "Soyuz 36 patch 1980",
+    "agency": "Soviet Union",
+    "year": 1980,
+    "filename": "Soyuz_36_patch_1980.png"
+  },
+  {
+    "name": "Soyuz 33 patch 1979",
+    "agency": "Soviet Union",
+    "year": 1979,
+    "filename": "Soyuz_33_patch_1979.png"
+  },
+  {
+    "name": "Soyuz 31 patch 1978",
+    "agency": "Soviet Union",
+    "year": 1978,
+    "filename": "Soyuz_31_patch_1978.png"
+  },
+  {
+    "name": "Soyuz 30 patch 1978",
+    "agency": "Soviet Union",
+    "year": 1978,
+    "filename": "Soyuz_30_patch_1978.png"
+  },
+  {
+    "name": "Soyuz 28 patch 1978",
+    "agency": "Soviet Union",
+    "year": 1978,
+    "filename": "Soyuz_28_patch_1978.png"
+  }
+]
