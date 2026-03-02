@@ -9,7 +9,9 @@
     --nasa-red: #fc3d21;
     --space-black: #000000;
     --lunar-grey: #a7a9ac;
+    --lunar-grey-dark: #6b6d70;
     --starlight: #ffffff;
+    --focus-color: #ffffff;
 }
 
 html {
@@ -65,7 +67,7 @@ body {
 
 .subtitle {
     font-size: 1.2rem;
-    color: var(--lunar-grey);
+    color: var(--lunar-grey-dark);
     font-weight: 300;
     letter-spacing: 1px;
 }
@@ -104,8 +106,20 @@ body {
     box-shadow: 0 0 15px rgba(252, 61, 33, 0.4);
 }
 
+.search-box:focus-visible,
+.filter-select:focus-visible {
+    outline: 3px solid var(--focus-color);
+    outline-offset: 2px;
+    box-shadow: 0 0 15px rgba(252, 61, 33, 0.4);
+}
+
+.modal-close:focus-visible {
+    outline: 3px solid var(--starlight);
+    outline-offset: 2px;
+}
+
 .search-box::placeholder {
-    color: var(--lunar-grey);
+    color: var(--lunar-grey-dark);
 }
 
 .filter-select option {
@@ -122,7 +136,7 @@ body {
 
 .patch-card {
     background: rgba(11, 61, 145, 0.6);
-    border: 2px solid var(--lunar-grey);
+    border: 2px solid var(--lunar-grey-dark);
     border-radius: 12px;
     overflow: hidden;
     cursor: pointer;
@@ -130,6 +144,11 @@ body {
     display: flex;
     flex-direction: column;
     height: 100%;
+}
+
+.patch-card:focus-visible {
+    outline: 3px solid var(--focus-color);
+    outline-offset: 2px;
 }
 
 .patch-card:hover {
@@ -166,7 +185,7 @@ body {
 
 .patch-meta {
     font-size: 0.85rem;
-    color: var(--lunar-grey);
+    color: var(--lunar-grey-dark);
     display: flex;
     justify-content: space-between;
 }
@@ -230,7 +249,7 @@ body {
     width: 100%;
     border-radius: 12px;
     margin-bottom: 20px;
-    border: 2px solid var(--lunar-grey);
+    border: 2px solid var(--lunar-grey-dark);
 }
 
 .modal-title {
@@ -268,9 +287,9 @@ body {
 footer {
     margin-top: 80px;
     padding-top: 40px;
-    border-top: 1px solid var(--lunar-grey);
+    border-top: 1px solid var(--lunar-grey-dark);
     text-align: center;
-    color: var(--lunar-grey);
+    color: var(--lunar-grey-dark);
     font-size: 0.9rem;
     animation: fadeInUp 1s ease;
 }
@@ -347,6 +366,36 @@ footer {
     to {
         transform: rotate(360deg);
     }
+}
+
+/* Accessibility: Skip to content link */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: var(--nasa-red);
+    color: var(--starlight);
+    padding: 8px 16px;
+    text-decoration: none;
+    z-index: 100;
+    border-radius: 0 0 8px 0;
+}
+
+.skip-link:focus {
+    top: 0;
+}
+
+/* Accessibility: Screen reader only text */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
 }
 
 @media (max-width: 768px) {

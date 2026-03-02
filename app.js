@@ -85,6 +85,7 @@ function displayPatches() {
     if (filteredPatches.length === 0) {
         grid.style.display = 'none';
         noResults.style.display = 'block';
+        noResults.setAttribute('role', 'status');
         return;
     }
     
@@ -95,9 +96,12 @@ function displayPatches() {
     filteredPatches.forEach(patch => {
         const card = document.createElement('div');
         card.className = 'patch-card';
+        card.tabIndex = 0;
+        card.role = 'button';
+        card.setAttribute('aria-label', `View details for ${patch.name} (${patch.year}) from ${patch.agency}`);
         card.innerHTML = `
             <div class="patch-image-wrapper">
-                <img src="downloads/patches/${patch.filename}" alt="${patch.name}" class="patch-image" loading="lazy">
+                <img src="downloads/patches/${patch.filename}" alt="Mission patch for ${patch.name} (${patch.year})" class="patch-image" loading="lazy">
             </div>
             <div class="patch-info">
                 <div class="patch-name">${patch.name}</div>
@@ -109,24 +113,53 @@ function displayPatches() {
         `;
         
         card.addEventListener('click', () => openModal(patch));
+        card.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                openModal(patch);
+            }
+        });
         grid.appendChild(card);
     });
+    
+    // Announce results to screen readers
+    const resultMessage = `Showing ${filteredPatches.length} patch${filteredPatches.length !== 1 ? 'es' : ''}`;
+    const announcement = document.createElement('div');
+    announcement.className = 'sr-only';
+    announcement.setAttribute('role', 'status');
+    announcement.setAttribute('aria-live', 'polite');
+    announcement.textContent = resultMessage;
+    grid.insertAdjacentElement('beforebegin', announcement);
+    setTimeout(() => announcement.remove(), 1000);
 }
 
 // Modal functions
+let lastFocusedElement = null;
+
 function openModal(patch) {
     const modal = document.getElementById('modal');
+    lastFocusedElement = document.activeElement;
     document.getElementById('modalImage').src = `downloads/patches/${patch.filename}`;
+    document.getElementById('modalImage').alt = `Mission patch for ${patch.name} (${patch.year})`;
     document.getElementById('modalTitle').textContent = patch.name;
     document.getElementById('modalAgency').textContent = patch.agency;
     document.getElementById('modalYear').textContent = patch.year;
     modal.classList.add('active');
+    modal.setAttribute('aria-hidden', 'false');
     document.body.style.overflow = 'hidden';
+    // Move focus to close button for screen readers
+    setTimeout(() => document.querySelector('.modal-close').focus(), 100);
 }
 
 function closeModal() {
-    document.getElementById('modal').classList.remove('active');
+    const modal = document.getElementById('modal');
+    modal.classList.remove('active');
+    modal.setAttribute('aria-hidden', 'true');
     document.body.style.overflow = 'auto';
+    // Return focus to the element that opened the modal
+    if (lastFocusedElement) {
+        lastFocusedElement.focus();
+    }
 }
 
 // Event listeners

@@ -10,12 +10,15 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Skip to main content link -->
+    <a href="#main" class="skip-link">Skip to main content</a>
+
     <!-- Starfield background -->
     <div id="starfield"></div>
     
     <div class="container">
         <!-- Header -->
-        <header class="header">
+        <header class="header" role="banner">
             <div class="header-content">
                 <h1 class="title">
                     <span class="star">★</span> Space Patches <span class="star">★</span>
@@ -25,18 +28,26 @@
         </header>
 
         <!-- Filters -->
-        <div class="filters">
-            <input type="text" id="searchInput" class="search-box" placeholder="Search patches...">
-            <select id="agencyFilter" class="filter-select">
+        <nav class="filters" aria-label="Patch filters">
+            <label for="searchInput" class="sr-only">Search patches by name or agency</label>
+            <input type="text" id="searchInput" class="search-box" placeholder="Search patches..." aria-describedby="search-help">
+            <span id="search-help" class="sr-only">Type to search patches by name or agency</span>
+            
+            <label for="agencyFilter" class="sr-only">Filter by agency</label>
+            <select id="agencyFilter" class="filter-select" aria-label="Filter by space agency">
                 <option value="">All Agencies</option>
             </select>
-            <select id="yearFilter" class="filter-select">
+            
+            <label for="yearFilter" class="sr-only">Filter by year</label>
+            <select id="yearFilter" class="filter-select" aria-label="Filter by mission year">
                 <option value="">All Years</option>
             </select>
-        </div>
+        </nav>
 
+        <!-- Main content -->
+        <main id="main">
         <!-- Patch grid -->
-        <div id="patchGrid" class="patch-grid">
+        <div id="patchGrid" class="patch-grid" role="region" aria-label="Patch collection" aria-live="polite" aria-atomic="false">
             <!-- Populated by JavaScript -->
         </div>
 
@@ -47,15 +58,16 @@
         </div>
 
         <!-- No results -->
-        <div id="noResults" class="no-results" style="display: none;">
+        <div id="noResults" class="no-results" style="display: none;" role="status" aria-live="polite" aria-atomic="true">
             <p>No patches found matching your criteria.</p>
         </div>
+        </main>
     </div>
 
     <!-- Modal for expanded view -->
-    <div id="modal" class="modal">
+    <div id="modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-hidden="true">
         <div class="modal-content">
-            <button class="modal-close">&times;</button>
+            <button class="modal-close" aria-label="Close patch details dialog">×</button>
             <div class="modal-inner">
                 <img id="modalImage" src="" alt="Patch">
                 <div class="modal-info">
@@ -68,7 +80,7 @@
     </div>
 
     <!-- Footer -->
-    <footer>
+    <footer role="contentinfo">
         <div class="footer-content">
             <div class="footer-links">
                 <a href="https://www.esa.int/" target="_blank">ESA</a>
