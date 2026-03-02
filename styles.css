@@ -24,7 +24,7 @@ html {
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', 'Inter', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
     background: linear-gradient(180deg, #0b0f1a 0%, #111827 100%);
     background-attachment: fixed;
     color: var(--starlight);
@@ -33,6 +33,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    line-height: 1.6;
 }
 
 #starfield {
@@ -53,7 +54,7 @@ body {
 .container {
     max-width: 1400px;
     margin: 0 auto;
-    padding: 40px 20px;
+    padding: 56px 24px 64px;
     width: 100%;
     position: relative;
     z-index: 1;
@@ -62,36 +63,36 @@ body {
 
 .header {
     text-align: center;
-    margin-bottom: 60px;
-    animation: fadeInDown 0.8s ease;
+    margin-bottom: 48px;
+    animation: fadeInDown 0.6s ease;
 }
 
 .title {
-    font-size: 3.2rem;
+    font-size: 3rem;
     font-weight: 700;
     background: linear-gradient(120deg, #e7ecff 0%, #b7c3e9 55%, #d6a29a 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-shadow: 0 12px 24px rgba(9, 12, 20, 0.35);
-    margin-bottom: 10px;
-    letter-spacing: 1px;
+    margin-bottom: 12px;
+    letter-spacing: 0.6px;
 }
 
 .subtitle {
-    font-size: 1.05rem;
+    font-size: 1rem;
     color: var(--lunar-grey-dark);
     font-weight: 400;
-    letter-spacing: 0.6px;
+    letter-spacing: 0.4px;
 }
 
 .filters {
     display: flex;
-    gap: 15px;
-    margin-bottom: 40px;
+    gap: 12px;
+    margin-bottom: 32px;
     flex-wrap: wrap;
     justify-content: center;
-    animation: fadeInUp 0.8s ease;
+    animation: fadeInUp 0.6s ease;
 }
 
 .search-box,
@@ -102,9 +103,14 @@ body {
     color: var(--starlight);
     border-radius: 12px;
     font-size: 1rem;
-    transition: all 0.25s ease;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
     cursor: pointer;
     box-shadow: 0 6px 18px rgba(8, 12, 24, 0.18);
+}
+
+.search-box:hover,
+.filter-select:hover {
+    background: rgba(20, 28, 44, 0.9);
 }
 
 .search-box {
@@ -144,17 +150,17 @@ body {
 .patch-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 20px;
-    animation: fadeIn 0.8s ease;
+    gap: 24px;
+    animation: fadeIn 0.6s ease;
 }
 
 .patch-card {
     background: var(--surface);
     border: 1px solid var(--border-subtle);
-    border-radius: 16px;
+    border-radius: 18px;
     overflow: hidden;
     cursor: pointer;
-    transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -184,7 +190,7 @@ body {
 }
 
 .patch-info {
-    padding: 15px;
+    padding: 16px 18px 18px;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
@@ -192,14 +198,14 @@ body {
 }
 
 .patch-name {
-    font-size: 0.95rem;
+    font-size: 1rem;
     font-weight: 600;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
     color: var(--starlight);
 }
 
 .patch-meta {
-    font-size: 0.85rem;
+    font-size: 0.9rem;
     color: var(--lunar-grey-dark);
     display: flex;
     justify-content: space-between;
@@ -216,7 +222,7 @@ body {
     z-index: 1000;
     align-items: center;
     justify-content: center;
-    backdrop-filter: blur(8px);
+    backdrop-filter: blur(10px);
 }
 
 .modal.active {
@@ -226,13 +232,13 @@ body {
 .modal-content {
     background: var(--surface-strong);
     border: 1px solid var(--border-subtle);
-    border-radius: 16px;
-    padding: 30px;
+    border-radius: 20px;
+    padding: 28px;
     max-width: 600px;
     width: 90%;
     max-height: 80vh;
     overflow-y: auto;
-    animation: slideIn 0.3s ease;
+    animation: slideIn 0.25s ease;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -266,7 +272,7 @@ body {
 
 .modal-image {
     width: 100%;
-    max-height: 300px;
+    max-height: 320px;
     object-fit: contain;
     border-radius: 12px;
     border: 1px solid var(--border-subtle);
@@ -281,7 +287,7 @@ body {
 }
  
 .modal-title {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     font-weight: 650;
     color: var(--starlight);
     margin: 0;
@@ -290,15 +296,15 @@ body {
 .modal-details {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 15px;
-    margin-bottom: 20px;
+    gap: 12px;
+    margin-bottom: 8px;
     font-size: 0.95rem;
 }
 
 .detail-item {
     background: rgba(255, 255, 255, 0.04);
-    padding: 12px;
-    border-radius: 8px;
+    padding: 12px 14px;
+    border-radius: 10px;
     border: 1px solid var(--border-subtle);
 }
 
@@ -321,7 +327,7 @@ footer {
     text-align: center;
     color: var(--lunar-grey-dark);
     font-size: 0.9rem;
-    animation: fadeInUp 1s ease;
+    animation: fadeInUp 0.6s ease;
 }
 
 .footer-text {
@@ -340,7 +346,7 @@ footer {
 .footer-links a {
     color: var(--lunar-grey-dark);
     text-decoration: none;
-    transition: color 0.3s ease;
+    transition: color 0.2s ease;
 }
 
 .footer-links a:hover {
@@ -426,6 +432,13 @@ footer {
     clip: rect(0, 0, 0, 0);
     white-space: nowrap;
     border-width: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation: none !important;
+        transition: none !important;
+    }
 }
 
 @media (max-width: 768px) {
