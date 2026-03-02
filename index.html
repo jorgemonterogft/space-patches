@@ -68,12 +68,18 @@
     <div id="modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-hidden="true">
         <div class="modal-content">
             <button class="modal-close" aria-label="Close patch details dialog">×</button>
-            <div class="modal-inner">
-                <img id="modalImage" src="" alt="Patch">
-                <div class="modal-info">
-                    <h2 id="modalTitle"></h2>
-                    <p><strong>Agency/Country:</strong> <span id="modalAgency"></span></p>
-                    <p><strong>Year:</strong> <span id="modalYear"></span></p>
+            <img id="modalImage" src="" alt="Patch" class="modal-image">
+            <div class="modal-info">
+                <h2 id="modalTitle" class="modal-title"></h2>
+                <div class="modal-details">
+                    <div class="detail-item">
+                        <div class="detail-label">Agency/Country</div>
+                        <div class="detail-value" id="modalAgency"></div>
+                    </div>
+                    <div class="detail-item">
+                        <div class="detail-label">Year</div>
+                        <div class="detail-value" id="modalYear"></div>
+                    </div>
                 </div>
             </div>
         </div>
