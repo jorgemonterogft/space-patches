@@ -5,13 +5,17 @@
 }
 
 :root {
-    --nasa-blue: #0b3d91;
-    --nasa-red: #fc3d21;
-    --space-black: #000000;
+    --nasa-blue: #1e2a4a;
+    --nasa-red: #c86a5d;
+    --space-black: #0b0f1a;
     --lunar-grey: #a7a9ac;
-    --lunar-grey-dark: #6b6d70;
-    --starlight: #ffffff;
-    --focus-color: #ffffff;
+    --lunar-grey-dark: #9aa1b2;
+    --starlight: #f5f7fb;
+    --focus-color: #f5f7fb;
+    --surface: rgba(16, 22, 36, 0.72);
+    --surface-strong: rgba(16, 22, 36, 0.9);
+    --border-subtle: rgba(245, 247, 251, 0.16);
+    --shadow-soft: 0 18px 40px rgba(5, 10, 20, 0.35);
 }
 
 html {
@@ -21,7 +25,7 @@ html {
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, var(--space-black) 0%, var(--nasa-blue) 100%);
+    background: linear-gradient(180deg, #0b0f1a 0%, #111827 100%);
     background-attachment: fixed;
     color: var(--starlight);
     overflow-x: hidden;
@@ -63,22 +67,22 @@ body {
 }
 
 .title {
-    font-size: 3.5rem;
+    font-size: 3.2rem;
     font-weight: 700;
-    background: linear-gradient(135deg, var(--nasa-blue) 0%, var(--nasa-red) 100%);
+    background: linear-gradient(120deg, #e7ecff 0%, #b7c3e9 55%, #d6a29a 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-shadow: 0 0 30px rgba(11, 61, 145, 0.3);
+    text-shadow: 0 12px 24px rgba(9, 12, 20, 0.35);
     margin-bottom: 10px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 .subtitle {
-    font-size: 1.2rem;
+    font-size: 1.05rem;
     color: var(--lunar-grey-dark);
-    font-weight: 300;
-    letter-spacing: 1px;
+    font-weight: 400;
+    letter-spacing: 0.6px;
 }
 
 .filters {
@@ -92,14 +96,15 @@ body {
 
 .search-box,
 .filter-select {
-    padding: 12px 20px;
-    background: rgba(11, 61, 145, 0.8);
-    border: 2px solid var(--nasa-red);
+    padding: 12px 18px;
+    background: var(--surface-strong);
+    border: 1px solid var(--border-subtle);
     color: var(--starlight);
-    border-radius: 8px;
+    border-radius: 12px;
     font-size: 1rem;
-    transition: all 0.3s ease;
+    transition: all 0.25s ease;
     cursor: pointer;
+    box-shadow: 0 6px 18px rgba(8, 12, 24, 0.18);
 }
 
 .search-box {
@@ -111,15 +116,15 @@ body {
 .search-box:focus,
 .filter-select:focus {
     outline: none;
-    border-color: var(--starlight);
-    box-shadow: 0 0 15px rgba(252, 61, 33, 0.4);
+    border-color: rgba(200, 106, 93, 0.6);
+    box-shadow: 0 0 0 3px rgba(200, 106, 93, 0.25);
 }
 
 .search-box:focus-visible,
 .filter-select:focus-visible {
-    outline: 3px solid var(--focus-color);
+    outline: 2px solid var(--focus-color);
     outline-offset: 2px;
-    box-shadow: 0 0 15px rgba(252, 61, 33, 0.4);
+    box-shadow: 0 0 0 3px rgba(200, 106, 93, 0.25);
 }
 
 .modal-close:focus-visible {
@@ -144,15 +149,16 @@ body {
 }
 
 .patch-card {
-    background: rgba(11, 61, 145, 0.6);
-    border: 2px solid var(--lunar-grey-dark);
-    border-radius: 12px;
+    background: var(--surface);
+    border: 1px solid var(--border-subtle);
+    border-radius: 16px;
     overflow: hidden;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
     display: flex;
     flex-direction: column;
     height: 100%;
+    box-shadow: 0 10px 24px rgba(5, 10, 20, 0.25);
 }
 
 .patch-card:focus-visible {
@@ -161,9 +167,9 @@ body {
 }
 
 .patch-card:hover {
-    transform: translateY(-8px);
-    border-color: var(--nasa-red);
-    box-shadow: 0 10px 30px rgba(252, 61, 33, 0.3);
+    transform: translateY(-6px);
+    border-color: rgba(30, 42, 74, 0.6);
+    box-shadow: var(--shadow-soft);
 }
 
 .patch-image {
@@ -206,11 +212,11 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.85);
+    background: rgba(7, 10, 18, 0.75);
     z-index: 1000;
     align-items: center;
     justify-content: center;
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(8px);
 }
 
 .modal.active {
@@ -218,8 +224,8 @@ body {
 }
 
 .modal-content {
-    background: linear-gradient(135deg, var(--nasa-blue) 0%, rgba(11, 61, 145, 0.9) 100%);
-    border: 2px solid var(--nasa-red);
+    background: var(--surface-strong);
+    border: 1px solid var(--border-subtle);
     border-radius: 16px;
     padding: 30px;
     max-width: 600px;
@@ -231,30 +237,31 @@ body {
     display: flex;
     flex-direction: column;
     gap: 20px;
-}}
+    box-shadow: var(--shadow-soft);
+}
 
 .modal-close {
     position: absolute;
     top: 20px;
     right: 20px;
-    background: var(--nasa-red);
-    border: none;
+    background: rgba(30, 42, 74, 0.9);
+    border: 1px solid var(--border-subtle);
     color: var(--starlight);
     font-size: 28px;
     width: 40px;
     height: 40px;
     border-radius: 50%;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: transform 0.2s ease, background 0.2s ease, color 0.2s ease;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .modal-close:hover {
-    background: var(--starlight);
-    color: var(--nasa-red);
-    transform: rotate(90deg);
+    background: rgba(200, 106, 93, 0.9);
+    color: var(--starlight);
+    transform: scale(1.03);
 }
 
 .modal-image {
@@ -262,16 +269,22 @@ body {
     max-height: 300px;
     object-fit: contain;
     border-radius: 12px;
-    border: 2px solid var(--lunar-grey-dark);
-    background: rgba(255, 255, 255, 0.05);
-    padding: 10px;
+    border: 1px solid var(--border-subtle);
+    background: rgba(255, 255, 255, 0.03);
+    padding: 12px;
 }
 
 .modal-info {
-    font-size: 1.8rem;
-    font-weight: 700;
-    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+ 
+.modal-title {
+    font-size: 1.6rem;
+    font-weight: 650;
     color: var(--starlight);
+    margin: 0;
 }
 
 .modal-details {
@@ -283,15 +296,15 @@ body {
 }
 
 .detail-item {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.04);
     padding: 12px;
     border-radius: 8px;
-    border-left: 3px solid var(--nasa-red);
+    border: 1px solid var(--border-subtle);
 }
 
 .detail-label {
     font-weight: 600;
-    color: var(--nasa-red);
+    color: var(--lunar-grey-dark);
     margin-bottom: 5px;
     font-size: 0.85rem;
 }
@@ -304,7 +317,7 @@ body {
 footer {
     margin-top: 80px;
     padding-top: 40px;
-    border-top: 1px solid var(--lunar-grey-dark);
+    border-top: 1px solid var(--border-subtle);
     text-align: center;
     color: var(--lunar-grey-dark);
     font-size: 0.9rem;
@@ -325,7 +338,7 @@ footer {
 }
 
 .footer-links a {
-    color: var(--nasa-red);
+    color: var(--lunar-grey-dark);
     text-decoration: none;
     transition: color 0.3s ease;
 }
@@ -390,7 +403,7 @@ footer {
     position: absolute;
     top: -40px;
     left: 0;
-    background: var(--nasa-red);
+    background: rgba(30, 42, 74, 0.9);
     color: var(--starlight);
     padding: 8px 16px;
     text-decoration: none;
